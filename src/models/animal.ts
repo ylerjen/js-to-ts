@@ -1,8 +1,11 @@
 (function () {
     console.log('declare Animal');
-    const nsModels = setNamespace('App.Models')
+    const nsModels = window.setNamespace('App.Models')
 
     class Animal {
+
+        public name;
+
         constructor(name) {
             this.name = name;
         }

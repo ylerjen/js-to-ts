@@ -1,9 +1,12 @@
 (function(){
 
     console.log('declare Person');
-    const nsModels = setNamespace('App.Models')
+    const nsModels = window.setNamespace('App.Models')
     
     class Person {
+        public firstname;
+        public lastname;
+
         constructor(firstname, lastname) {
             this.firstname = firstname;
             this.lastname = lastname;

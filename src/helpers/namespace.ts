@@ -1,3 +1,5 @@
+declare var App;
+
 App = {};
 window.App = App;
 console.log('declare namespaces');
